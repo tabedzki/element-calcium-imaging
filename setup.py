@@ -35,12 +35,12 @@ setup(
     packages=find_packages(exclude=["contrib", "docs", "tests*"]),
     scripts=[],
     install_requires=[
+        "scikit-image",
         "datajoint>=0.13.0",
         "ipykernel>=6.0.1",
         "ipywidgets",
         "plotly",
         "dash-extensions",
-        "scikit-image",
         "element-interface @ git+https://github.com/datajoint/element-interface.git",
     ],
     extras_require={
